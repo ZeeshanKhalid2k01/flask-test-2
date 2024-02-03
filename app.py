@@ -32,6 +32,6 @@ def generate_audio():
     # Return the generated audio file as a response
     return send_file('generated_audio.mp3', as_attachment=True)
 
-if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=80, debug=True)
+# if __name__ == '__main__':
+#         app.run(host='0.0.0.0', port=80, debug=True)
 
