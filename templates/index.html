@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Audio Generator</title>
+</head>
+<body>
+    <h1>Text to Audio Generator</h1>
+    <form action="/generate_audio" method="post">
+        <label for="input_text">Enter Text:</label>
+        <textarea name="input_text" id="input_text" rows="4" cols="50" required></textarea>
+        <br>
+        <label>Select Voice:</label>
+        <input type="radio" name="voice" value="0" checked> Male
+        <input type="radio" name="voice" value="1"> Female
+        <br>
+        <button type="submit">Generate Audio</button>
+    </form>
+</body>
+</html>
